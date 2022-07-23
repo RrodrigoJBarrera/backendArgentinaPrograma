@@ -24,7 +24,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @author rodrigojbarrera
  */
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+//@CrossOrigin(origins = "http://localhost:4200")
 public class ExperienciaControlador {
     
     @Autowired IExperienciaServicio iExperienciaServicio;
