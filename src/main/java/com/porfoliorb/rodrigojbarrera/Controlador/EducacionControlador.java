@@ -23,7 +23,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @author rodrigojbarrera
  */
 @RestController
-//@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://still-reef-69263.herokuapp.com/")
 public class EducacionControlador {
 
     @Autowired
