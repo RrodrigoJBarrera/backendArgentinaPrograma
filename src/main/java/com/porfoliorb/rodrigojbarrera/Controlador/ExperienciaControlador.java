@@ -24,7 +24,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @author rodrigojbarrera
  */
 @RestController
-@CrossOrigin(origins = "https://still-reef-69263.herokuapp.com:3306/")
+@CrossOrigin(origins = "https://still-reef-69263.herokuapp.com/")
 public class ExperienciaControlador {
     
     @Autowired IExperienciaServicio iExperienciaServicio;
